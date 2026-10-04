@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Innocent Vomitadyo</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header class="topbar">
+    <nav aria-label="Main">
+        <a href="index.html">Innocent Vomitadyo</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <span></span>
+</header>
+
+
+
+<main class="contact-page">
+    <h2>Contact Details</h2>
+
+    <section class="contact-card">
+        <h2>Innocent Vomitadyo</h2>
+        <p class="role">Ph.D. Candidate in Agricultural and Resource Economics</p>
+
+        <ul class="contact-list">
+            <li><i class="fa-solid fa-building-columns"></i> Colorado State University</li>
+            <li><i class="fa-solid fa-location-dot"></i> Fort Collins, Colorado, USA</li>
+            <li><i class="fa-solid fa-envelope"></i>
+                <a href="mailto:innocentvomitadyo@gmail.com">innocentvomitadyo@gmail.com</a></li>
+            <li><i class="fa-solid fa-envelope"></i>
+                <a href="mailto:Innocent.Vomitadyo@colostate.edu">Innocent.Vomitadyo@colostate.edu</a></li>
+            <li><i class="fa-solid fa-phone"></i>
+                <a href="tel:+17207819450">+1 720-781-9450</a></li>
+        </ul>
+
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+</main>
+
+
+
+<!-- ========== PHOTO SLIDESHOW ========== -->
+
+<section class="slider" aria-label="Photo slideshow">
+    <div class="viewport">
+      <div class="track">
+	  
+	  <!-- Select photos to show -->
+        <figure class="slide">
+		<img src="images/snowy range.jpg" alt="Snowy Range, Wyoming">
+		<span class="hint">Add your photo as images/field.jpg</span>
+		<figcaption>Snowy Range, Wyoming</figcaption>
+		</figure>
+		
+		
+        <figure class="slide">
+		<img src="images/horsetooth reservior.jpg" alt="Horsetooth Reservior, Colorado">
+		<span class="hint">Add your photo as images/pivot.jpg</span>
+		<figcaption>Horsetooth Reservior, Colorado</figcaption>
+		</figure>
+		
+		
+        <figure class="slide">
+		<img src="images/patie.jpg" alt="patie">
+		<span class="hint">Add your photo as images/river.jpg</span>
+		<figcaption>Patie</figcaption>
+		</figure>
+		
+		
+        <figure class="slide">
+		<img src="images/muku.jpg" alt="Colorado State University, Fort Collins">
+		<span class="hint">Add your photo as images/campus.jpg</span>
+		<figcaption>Muku</figcaption>
+		</figure>
+		
+		
+		<figure class="slide">
+		<img src="images/denver.jpg" alt="Colorado State University, Fort Collins">
+		<span class="hint">Add your photo as images/campus.jpg</span>
+		<figcaption>Denver</figcaption>
+		</figure>
+		
+		
+		<figure class="slide">
+		<img src="images/City Park.jpg" alt="Colorado State University, Fort Collins">
+		<span class="hint">Add your photo as images/campus.jpg</span>
+		<figcaption>Fort Collins, Colorado</figcaption>
+		</figure>
+		
+		
+      </div>
+	  
+	   <!-- Navigation arrows (&#8249; = ‹, &#8250; = ›); aria-labels help screen readers -->
+      <button class="arrow prev" aria-label="Previous picture">&#8249;</button>
+      <button class="arrow next" aria-label="Next picture">&#8250;</button>
+    </div>
+    <div class="dots"></div>
+</section>
+
+
+
+<footer>&copy; Innocent Vomitadyo &middot; <span id="year"></span></footer>
+
+<script src="slider.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
