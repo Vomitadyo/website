@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innocent Vomitadyo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome & Academicons for the left sidebar icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <nav aria-label="Main">
+        <a href="index.html" class="active" aria-current="page">Innocent Vomitadyo</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="projects.html">Projects</a>
+        <a href="conferences.html">Conferences</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="page-container">
+    <div class="about">
+        <!-- Left Sidebar: Profile photo, name, and vertical link list -->
+        <aside class="sidebar">
+            <div class="avatar-box">
+                <img class="photo" src="images/headshot-wide-800.jpg" alt="Innocent Vomitadyo">
+            </div>
+
+            <h2 class="sidebar-name">Innocent Vomitadyo</h2>
+            <p class="sidebar-title">Ph.D. Candidate in Agricultural and Resource Economics</p>
+
+            <ul class="sidebar-links">
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Fort Collins, CO, USA</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span>Colorado State University</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:Innocent.Vomitadyo@colostate.edu">Email</a>
+                </li>
+                <li>
+                    <i class="ai ai-google-scholar"></i>
+                    <a href="https://scholar.google.com/citations?hl=en&user=LT8RzNEAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+                </li>
+           
+                   <li>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/Vomitadyo" target="_blank" rel="noopener">GitHub</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin" style="color: #0077b5;"></i>
+                    <a href="https://www.linkedin.com/in/innocent-vomitadyo-205a9160/" target="_blank" rel="noopener">LinkedIn</a>
+                </li>
+            </ul>
+        </aside>
+
+
+
+        <!-- Right Side: Bio text -->
+		
+		
+<section class="bio">
+    <h1>About me</h1>
+	
+    <p>
+        I am a Ph.D. candidate in Agricultural and Resource Economics at Colorado State University, currently on the job market.
+        My research focuses on environmental and natural resource economics, agricultural economics,
+        groundwater management, and producer decision-making. My current work examines the economics of farmers'
+        participation in groundwater conservation and land retirement programs.
+    </p>
+
+
+    <p>
+        My <a href="papers/job-market-paper.pdf" target="_blank" rel="noopener"><strong> job-market paper</strong></a>
+        examines how producers choose between two federal conservation programs, CREP and EQIP, to retire
+        irrigated cropland in Colorado's Republican River Basin, and identifies the conditions under which a
+        single program versus a mix of programs achieves a given acreage-retirement target at the lowest cost.
+        I used a theoretical model to describe how farmers self-select into different programs.
+    </p>
+
+
+    <p>
+        The second chapter develops an optimization model integrated with a multiregional input&ndash;output model 
+		to simulate the regional economic impacts of removing land from irrigated production using different strategies. 
+		This analysis combines regional economic data with field-level participation information using Stata, R, and QGIS.
+        Components of the first two chapters were used in a
+        <a href="https://www.republicanriver.com/economic-study" target="_blank" rel="noopener"> <strong>report</strong></a>
+        sanctioned by the State of Colorado that evaluates the potential economic consequences of large-scale
+        groundwater curtailment in the eastern portion of the state.
+    </p>
+
+    <p>
+        My third chapter ddresses a macroeconomic question related to economic development and the environment, examining how foreign
+        direct investment influences carbon emissions through international trade and technology transfer,
+        using a panel of 164 countries from 2000 to 2025.
+    </p>
+	
+</section>
+		
+    </div>
+	
+</main>
+
+
+<!-- sections that pulls some random quotes frm a java script file -->
+
+<section class="quote-box" aria-label="Quotation">
+    <blockquote id="quote-block">
+        <p id="quote-text"></p>
+        <footer id="quote-author"></footer>
+    </blockquote>
+</section>
+
+<script src="quotes.js"></script>
+
+
+
+<footer>Innocent Vomitadyo &middot; <span id="year"></span></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
